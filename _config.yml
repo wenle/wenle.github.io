@@ -1,19 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: "Wenle's Blog"
-email: 
-description: >
-  工程师
-baseurl: ""
-url: "https://wenle.github.io"
-github_username:  wenle
-encoding: utf-8
-
-# Build settings
-markdown: kramdown
+#markdown: rdiscount
+permalink: /:title/
+url: http://wenle.github.io
+#highlighter: pygments
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 100
+paginate_path: "page:num"
+name: Wenle
+#description:
+author: Wenle
+email: baowenle@outlook.com
+duoshuo: wenleplus
+weibo: nbug
+hub: wenle 
+safe: false
+about: "工程师"

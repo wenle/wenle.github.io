@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Wenle" />
-    <title>Wenle</title>
+    <title>Wenle - 分类</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="/feed/" rel="alternate" title="Wenle" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css" />
@@ -14,7 +14,7 @@
     <div id="container">
       <div id="main" role="main">
         <header>
-          <h1>首页</h1>
+          <h1>分类</h1>
         </header>
         <nav>
           <span><a title="首页" class="" href="/">首页</a></span>
@@ -25,39 +25,36 @@
         </nav>
         <article class="content">
           <section class="post">
-  <ul class="listing2">
+  <div id="tag_cloud">
 
-  
-  
-    
-    <li class="listing-seperator">2016</li>
-  
+<a href="#点滴积累" title="点滴积累" rel="1">点滴积累 (1)</a>
+
+</div>
+
+<ul class="listing2">
+
+  <li class="listing-seperator" id="点滴积累">点滴积累</li>
+
   <li class="listing-item">
-    <time datetime="2016-01-26">2016-01-26</time>
-    <a href="/service-downgrade-and-current-limit/" title="限流与降级">限流与降级</a>
-    <!-- 文章中想显示摘要，可以将下面注释去掉。可显示100字摘要-->
-    <!--<p>话说我在进入互联网之前，没有感觉到很大的行业差异。进来之后，发现同为Java服务端，服务的场景不一样，解决问题的方法论完全不一样，这也是所谓的互联网经验值钱的地方。后面我会陆续介绍一些这方面的概...</p>-->
+  <time datetime="2016-01-26">2016-01-26</time>
+  <a href="/service-downgrade-and-current-limit/" title="限流与降级">限流与降级</a>
   </li>
+
 
 </ul>
 
-<div id="post-pagination" class="paginator">
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 
-  
-    <span class="previous disabled">&lt;前页</span>
-  
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
 
-      
-      <span class="current-page">1</span>
-      
-
-    
-
-  
-    <span class="next disabled" >后页&gt;</span>
-  
-  (共1篇)
-</div>
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
 
 
 </section>
