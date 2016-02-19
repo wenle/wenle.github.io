@@ -16,3 +16,6 @@ comments: no
 * 网站：[{{ site.name }}]({{ site.url }})
 * 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 * GitHub : [http://github.com/{{ site.hub }}](http://github.com/{{ site.hub }})
+
+### 鸣谢
+博客的主题从[飘过的小牛](http://github.thinkingbar.com/)复制，多谢！

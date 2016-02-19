@@ -6,7 +6,7 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 100
 paginate_path: "page:num"
-name: Wenle
+name: Wenle的Blog
 #description:
 author: Wenle
 email: baowenle@outlook.com
